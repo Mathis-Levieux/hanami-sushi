@@ -102,7 +102,7 @@ a.carte:hover {
   text-underline-offset: 1rem;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 576px) {
   .hero-link-button {
     display: none;
   }
@@ -110,7 +110,7 @@ a.carte:hover {
     display: none;
   }
   header {
-    height: 90vh;
+    height: 80vh;
   }
   h2 {
     font-size: 1.5rem;
@@ -139,12 +139,11 @@ a.carte:hover {
   }
 
   .margincarte {
-    margin-top: 4rem!important;
-    margin-bottom: -2rem!important;
+    margin-top: 4rem !important;
+    margin-bottom: -2rem !important;
   }
 
   .logo {
-    margin: 0.7rem auto auto auto!important;
-    
+    margin: 0.7rem auto auto auto !important;
   }
 }
