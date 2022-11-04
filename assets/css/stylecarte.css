@@ -30,17 +30,22 @@ h1 {
 }
 
 .textcarte {
-    letter-spacing: 0.30em;
+  letter-spacing: 0.3em;
+}
+
+.bordermenu {
+    background-color: #BDBDBD;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 650px) {
- header {
+  header {
     height: 20vh;
- }
+  }
 
-.h1 {
+  .h1 {
     width: 100%;
-}
+  }
   h1 {
     width: 100%;
     font-size: 1.5rem;
