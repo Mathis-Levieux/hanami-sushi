@@ -20,33 +20,48 @@
   <body>
     <header class="m-4">
       <div class="row m-0">
-        <div class="row m-0">
-          <div class="col-sm-2 mt-1">
-            <img src="assets/img/logowhite.png" class="img-fluid ml-5" />
-          </div>
-          <div class="row justify-content-center m-0">
-            <h1 class="col-sm-6 text-center text-white pt-5">
-              HANAMI <span class="text-pink">SUSHI BAR</span>
-            </h1>
-          </div>
-          <div class="row justify-content-center m-0">
-            <h2 class="col-sm-6 text-center text-white">
-              Restaurant traditionnel Japonais
-            </h2>
-          </div>
-          <div class="row justify-content-center m-0">
-            <p class="text-center text-white">153 Quai George V, 76600 Le Havre</p>
-          </div>
+        <div class="col-lg-2 col-9 mt-1 logo">
+          <img src="assets/img/logowhite.png" class="img-fluid ml-5" />
+        </div>
+        <div class="row justify-content-center m-0">
+          <h1 class="col-sm-6 text-center text-white pt-5">
+            HANAMI <span class="text-pink">SUSHI BAR</span>
+          </h1>
+        </div>
+        <div class="row justify-content-center m-0">
+          <h2 class="col-sm-6 text-center text-white">
+            Restaurant traditionnel Japonais
+          </h2>
+        </div>
+        <div class="row justify-content-center m-0">
+          <p class="text-center text-white">
+            153 Quai George V, 76600 Le Havre
+          </p>
         </div>
       </div>
       <div class="hero-link">
-        <a class="hero-link-button" href="#carte"><i class="bi bi-chevron-double-down"></i></a>
+        <a class="hero-link-button text-center" href="#scrollbutton"
+          ><i class="bi bi-chevron-double-down"></i
+        ></a>
       </div>
     </header>
 
-    <main>
-      <div>
-        <h2 class="text-center"><a id="carte">CARTE</a></h2>
+    <main class="m-0">
+      <div class="margincarte mt-5">
+        <h2 class="text-center">
+          <a class="carte" id="carte" href="carte.html">LIEN VERS LA CARTE</a>
+        </h2>
+      </div>
+      <div class="row mt-5 justify-content-center">
+        <div class="col-lg-3 col-12 text-center pt-5" id="scrollbutton">
+          <p class="mobilefont">Scannez le QR Code pour la version mobile</p>
+          <i class="desktoparrow bi bi-arrow-right"></i
+          ><i class="mobilearrow bi bi-arrow-down"></i>
+        </div>
+
+        <div class="col-lg-3 col-12 text-center">
+          <img src="assets/img/qrcode.png" />
+        </div>
       </div>
     </main>
   </body>

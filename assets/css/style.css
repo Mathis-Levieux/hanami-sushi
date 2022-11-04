@@ -45,7 +45,7 @@ h2 {
 }
 
 .hero-link-button {
-content: "";
+  content: "";
   font-size: 24px;
   position: absolute;
   width: 50px;
@@ -53,6 +53,10 @@ content: "";
   left: 50%;
   margin-left: -25px;
   margin-top: -20px;
+}
+
+a {
+  color: rgb(0, 0, 0);
   -webkit-transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -o-transition: all 200ms linear;
@@ -60,8 +64,8 @@ content: "";
   transition: all 200ms linear;
 }
 
-a {
-    color: rgb(255, 0, 106);
+a:hover {
+  color: rgb(255, 0, 106);
 }
 
 .hero-link-button:before {
@@ -69,7 +73,7 @@ a {
   position: absolute;
   top: -10px;
   left: 50%;
-  margin-left: -53px;
+  margin-left: -41px;
   width: 80px;
   height: 80px;
   border-radius: 100%;
@@ -77,21 +81,70 @@ a {
   z-index: -1;
 }
 
-@media screen and (max-width: 650px) {
-    .hero-link-button {
-        display: none;
-    }
-    .hero-link {
-        display: none;
-    }
-    header {
-        height: auto;
-    }
-    h2 {
-        font-size: 1.5rem;
-    }
+.mobilearrow {
+  display: none;
+}
 
-    h1 {
-        font-size: 2.5rem;
-    }
+.desktoparrow {
+  font-size: 2rem;
+}
+
+a.carte {
+  font-size: 3rem;
+  color: rgb(255, 0, 106);
+  letter-spacing: 0.3em;
+  text-decoration: none;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+a.carte:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+  .hero-link-button {
+    display: none;
+  }
+  .hero-link {
+    display: none;
+  }
+  header {
+    height: 90vh;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .mobilefont {
+    font-size: 2rem;
+  }
+
+  .desktoparrow {
+    display: none;
+  }
+
+  .mobilearrow {
+    display: inline;
+    font-size: 2rem;
+  }
+
+  a.carte {
+    font-size: 2rem;
+    color: rgb(255, 0, 106);
+  }
+
+  .margincarte {
+    margin-top: 4rem!important;
+    margin-bottom: -2rem!important;
+  }
+
+  .logo {
+    margin: 0.7rem auto auto auto!important;
+    
+  }
 }
