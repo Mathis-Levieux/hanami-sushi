@@ -47,6 +47,43 @@ h1 {
 .hover:hover {
   color: rgb(255, 0, 106);
 }
+
+.article {
+  position: relative;
+}
+
+.divloupe {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  font-size: 2rem;
+}
+
+.divloupe:hover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.loupe {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  color: rgb(255, 0, 106);
+}
+
+
+
+
+
 @media screen and (max-width: 576px) {
   header {
     height: 20vh;
@@ -64,5 +101,23 @@ h1 {
       rgba(0, 0, 0, 0.062)
     );
     width: 100%;
+  }
+
+  .divloupe {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    font-size: 2rem;
+  }
+  
+  .loupe {
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    color: rgb(255, 0, 106);
   }
 }
