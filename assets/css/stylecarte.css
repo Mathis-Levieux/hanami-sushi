@@ -80,7 +80,19 @@ h1 {
   color: rgb(255, 0, 106);
 }
 
+.imga {
+  height: 156.229px;
+  width: 267.833px; 
+}
 
+.imgb {
+  height: 250px;
+  width: 400px; 
+}
+
+.modal-body {
+  word-wrap: break-word;
+}
 
 
 
