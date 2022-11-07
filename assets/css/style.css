@@ -102,6 +102,16 @@ a.carte:hover {
   text-underline-offset: 1rem;
 }
 
+footer {
+  background-color: #6868689d;
+  color: white;
+}
+
+.imgzoom {
+  height: 250px;
+  width: 400px; 
+}
+
 @media screen and (max-width: 576px) {
   .hero-link-button {
     display: none;
