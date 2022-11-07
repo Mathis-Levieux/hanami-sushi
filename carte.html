@@ -20,11 +20,11 @@
   <body class="bg-light">
     <header class="m-0">
       <div class="h1 row m-0 justify-content-center">
-        <h1
-          class="col-lg-6 col-12 text-center text-white mt-lg-4 pt-lg-3 pb-lg-5 pt-2 pb-2 ps-0 pe-0"
+        <a
+          class="title col-lg-6 col-12 text-center text-white mt-lg-4 pt-lg-3 pb-lg-5 pt-2 pb-2 ps-0 pe-0"
+          href="https://mathis-levieux.github.io/hanami-sushi/"
+          ><h1>HANAMI <span class="text-pink fw-bold">SUSHI BAR</span></h1></a
         >
-          HANAMI <span class="text-pink fw-bold">SUSHI BAR</span>
-        </h1>
       </div>
       <div class="col-12">
         <h2 class="textcarte text-white text-center fw-bold mt-3">LA CARTE</h2>
@@ -43,28 +43,33 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-            <span
-              class="underline hover fw-200 text-center ps-3 d-inline d-lg-none"
-            >
+            <span class="underline fw-200 text-center ps-3 d-inline d-lg-none">
               Menu déroulant
             </span>
           </button>
+          <span
+            class="text-pink fw-200 text-center ps-3 d-inline d-lg-none pe-2"
+            >02 35 42 39 33</span
+          >
           <div
             class="collapse navbar-collapse justify-content-center"
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
               <a class="nav-link hover underline pe-5" href="#plateaux"
-                >8 PLATEAUX</a
+                >PLATEAUX</a
               >
               <a class="nav-link hover underline pe-5" href="#california"
-                >6 CALIFORNIA</a
+                >CALIFORNIA</a
               >
               <a class="nav-link hover underline pe-5" href="#chirashi"
-                >8 CHIRASHI ET SASHIMI</a
+                >CHIRASHI ET SASHIMI</a
               >
-              <a class="nav-link hover underline pe-5" href="#maki">4 MAKI</a>
-              <a class="nav-link hover underline pe-5" href="#bento">2 BENTO</a>
+              <a class="nav-link hover underline pe-5" href="#maki">MAKI</a>
+              <a class="nav-link hover underline pe-5" href="#bento">BENTO</a>
+              <span class="num text-pink fw-200 text-center ps-3 pe-2"
+                >02 35 42 39 33</span
+              >
             </div>
           </div>
         </div>
@@ -76,10 +81,17 @@
             <img
               src="assets/img/plateau1.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Plateau Mixte"
               id="plateaux"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#plateaumixte"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Plateau Mixte</p></div>
@@ -93,9 +105,16 @@
             <img
               src="assets/img/plateau2.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Duo California & Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#duocaliforniasaumon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Duo California & Saumon</p></div>
@@ -108,9 +127,16 @@
             <img
               src="assets/img/plateau3.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="California Yaki"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#californiayaki"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>California Yaki</p></div>
@@ -123,9 +149,16 @@
             <img
               src="assets/img/plateau4.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="California Max"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#californiamax"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>California Max</p></div>
@@ -138,9 +171,16 @@
             <img
               src="assets/img/plateau5.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Sushi Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#sushisaumon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Sushi Saumon</p></div>
@@ -154,9 +194,16 @@
             <img
               src="assets/img/plateau6.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Sushi Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#freshmixte"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Fresh Mixte</p></div>
@@ -169,9 +216,16 @@
             <img
               src="assets/img/plateau7.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="California Mixte"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#californiamixte"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>California Mixte</p></div>
@@ -181,12 +235,15 @@
         </div>
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/plateau8.png"
-              class="imga"
-              alt="plateau de sushi"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/plateau8.png" class="imga" alt="Yaki Max" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#yakimax"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Yaki Max</p></div>
@@ -199,10 +256,16 @@
             <img
               src="assets/img/california5.png"
               class="imga"
-              alt="plateau de sushi"
-              id="california"
+              alt="Avocadotop Saumon Cheese"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#avocadotopsaumoncheese"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Avocadotop Saumon Cheese</p></div>
@@ -216,9 +279,16 @@
             <img
               src="assets/img/california6.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Greenroll Crevette Tempura"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#greenrollcrevettetempura"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal">
@@ -233,9 +303,16 @@
             <img
               src="assets/img/california4.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Makislim Crevette Tempura"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#makislimcrevettetempura"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Makislim Crevette Tempura</p></div>
@@ -248,9 +325,16 @@
             <img
               src="assets/img/california2.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Greenroll Thon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#greenrollthon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Greenroll Thon</p></div>
@@ -264,9 +348,16 @@
             <img
               src="assets/img/california3.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="California Smoky"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#californiasmoky"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>California Smoky</p></div>
@@ -280,9 +371,16 @@
             <img
               src="assets/img/california1.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="California Spicy Crevette"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#californiaspicycrevette"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>California Spicy Crevette</p></div>
@@ -296,13 +394,19 @@
               src="assets/img/sashimi1.png"
               class="imga"
               alt="plateau de sushi"
-              id="chirashi"
+              id="Chirashi Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#chirashisaumon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Chirashi Saumon</p></div>
-            <!-- <div class="col-lg-5 mt-0">24 pièces</div> -->
             <div class="col-lg-4 mt-lg-0 mt-1 text-pink fw-normal">15.90 €</div>
           </div>
         </div>
@@ -311,13 +415,19 @@
             <img
               src="assets/img/sashimi2.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Chirashi Marinade Thai"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#chirashimarinadethai"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Chirashi Marinade Thai</p></div>
-            <!-- <div class="col-lg-5 mt-0">24 pièces</div> -->
             <div class="col-lg-4 mt-lg-0 mt-1 text-pink fw-normal">17.50 €</div>
           </div>
         </div>
@@ -327,13 +437,19 @@
             <img
               src="assets/img/sashimi3.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Chirashi Thon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#chirashithon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Chirashi Thon</p></div>
-            <!-- <div class="col-lg-5 mt-0">24 pièces</div> -->
             <div class="col-lg-4 mt-lg-0 mt-1 text-pink fw-normal">16.90 €</div>
           </div>
         </div>
@@ -343,9 +459,16 @@
             <img
               src="assets/img/sashimi4.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Sashimi Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#sashimisaumon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Sashimi Saumon</p></div>
@@ -355,12 +478,15 @@
         </div>
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/sashimi5.png"
-              class="imga"
-              alt="plateau de sushi"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/sashimi5.png" class="imga" alt="Sashimi Mix" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#sashimimix"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Sashimi Mix</p></div>
@@ -373,9 +499,16 @@
             <img
               src="assets/img/sashimi6.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Sashimi Thon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#sashimithon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Sashimi Thon</p></div>
@@ -389,9 +522,16 @@
             <img
               src="assets/img/sashimi7.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Tataki Saumon"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#tatakisaumon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Tataki Saumon</p></div>
@@ -402,12 +542,15 @@
 
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/sashimi8.png"
-              class="imga"
-              alt="plateau de sushi"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/sashimi8.png" class="imga" alt="Tataki Thon" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#tatakithon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Tataki Thon</p></div>
@@ -417,13 +560,15 @@
         </div>
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/maki3.png"
-              class="imga"
-              alt="plateau de sushi"
-              id="maki"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/maki3.png" class="imga" alt="Maki Thon" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#makithon"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Maki Thon</p></div>
@@ -434,12 +579,15 @@
 
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/maki4.png"
-              class="imga"
-              alt="plateau de sushi"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/maki4.png" class="imga" alt="Maki Concombre" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#makiconcombre"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Maki Concombre</p></div>
@@ -452,9 +600,16 @@
             <img
               src="assets/img/maki1.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Maki Saumon Avocat"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#makisaumonavocat"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Maki Saumon Avocat</p></div>
@@ -464,12 +619,15 @@
         </div>
         <div class="col-lg-3 col-12 text-center mb-5">
           <div class="col-12 article">
-            <img
-              src="assets/img/maki2.png"
-              class="imga"
-              alt="plateau de sushi"
-            />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <img src="assets/img/maki2.png" class="imga" alt="Maki Avocat" />
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#makiavocat"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Maki Avocat</p></div>
@@ -483,10 +641,16 @@
             <img
               src="assets/img/bento1.png"
               class="imga"
-              alt="plateau de sushi"
-              id="bento"
+              alt="Karaage Sauce Truffes"
             />
-            <div class="divloupe"><i class="loupe bi bi-zoom-in"></i></div>
+            <div
+              class="divloupe btn"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#karaage"
+            >
+              <i class="loupe bi bi-zoom-in"></i>
+            </div>
           </div>
           <div class="row justify-content-center bordermenu gy-3 pb-3">
             <div class="col-12 fw-normal"><p>Karaage Sauce Truffes</p></div>
@@ -499,13 +663,13 @@
             <img
               src="assets/img/bento2.png"
               class="imga"
-              alt="plateau de sushi"
+              alt="Crevettes Tempura"
             />
             <div
               class="divloupe btn"
               type="button"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
+              data-bs-target="#crevettetempura"
             >
               <i class="loupe bi bi-zoom-in"></i>
             </div>
@@ -519,46 +683,1025 @@
       </div>
     </main>
 
+
+<!-- MODAL DES PLATS-->
+
+
     <div
+    class="modal fade"
+    id="plateaumixte"
+    tabindex="-1"
+    aria-labelledby="plateaumixte"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-body">
+          <button
+            type="button"
+            class="btn-close btn-close-white"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <img
+                src="assets/img/plateau1.png"
+                class="imgzoom"
+                alt="Plateau Mixte"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <h3 class="pb-2 fw-normal">Plateau Mixte</h3>
+              <p>4 Sushi Saumon, 2 Sushi Thon, 6 Maki Thon, 6 California Saumon</p>
+              <p>18 Pièces</p>
+              <p class="fw-normal text-pink">18,50 €</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
       class="modal fade"
-      id="exampleModal"
+      id="duocaliforniasaumon"
       tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
+      aria-labelledby="duocaliforniasaumon"
+      aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content bg-dark text-light">
-          <!-- <div class="modal-header">
+          <div class="modal-body">
             <button
               type="button"
               class="btn-close btn-close-white"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
-          </div> -->
-
-          <div class="modal-body">
             <div class="row">
-              <div class="col-6">
+              <div class="col-lg-6 col-12">
                 <img
-                  src="assets/img/bento2.png"
-                  class="imgb"
-                  alt="plateau de sushi"
+                  src="assets/img/plateau2.png"
+                  class="imgzoom"
+                  alt="Duo California Saumon"
                 />
               </div>
-              <div class="col-6">
-                <h3 class="pb-2">
-                  Crevettes Tempura
-                </h3>
-                <p>3 CREVETTES EN PANURE TEMPURA.</p>
-                <p>3 Pièces</p>
-                <p>6.70 €</p>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Duo California & Saumon</h3>
+                <p>6 Fresh Roll Cheese, 4 Sushi Saumon, 6 California Smoky</p>
+                <p>16 pièces</p>
+                <p class="fw-normal text-pink">18.50 €</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div
+      class="modal fade"
+      id="californiayaki"
+      tabindex="-1"
+      aria-labelledby="californiayaki"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau3.png"
+                  class="imgzoom"
+                  alt="California Yaki"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">California yaki</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>15 Pièces</p>
+                <p class="fw-normal text-pink">17.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="californiamax"
+      tabindex="-1"
+      aria-labelledby="californiamax"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau4.png"
+                  class="imgzoom"
+                  alt="California Max"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">California Max</h3>
+                <p>6 Freshroll, 6 California Smoky, 6 California Thon Cuit, 6 Flocon Saumon cheese</p>
+                <p>24 pièces</p>
+                <p class="fw-normal text-pink">19.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="sushisaumon"
+      tabindex="-1"
+      aria-labelledby="sushisaumon"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau5.png"
+                  class="imgzoom"
+                  alt="Sushi Saumon"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Sushi Saumon</h3>
+                <p>10 Sushi Saumon</p>
+                <p>10 pièces</p>
+                <p class="fw-normal text-pink">16.90€</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="freshmixte"
+      tabindex="-1"
+      aria-labelledby="freshmixte"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau6.png"
+                  class="imgzoom"
+                  alt="Fresh Mixte"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Fresh Mixte</h3>
+                <p>6 Fresh Roll Avocat, 6 Flocon Saumon Cheese, 6 Makislim Veggie</p>
+                <p>18 Pièces</p>
+                <p class="fw-normal text-pink">15.50 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="californiamixte"
+      tabindex="-1"
+      aria-labelledby="californiamixte"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau7.png"
+                  class="imgzoom"
+                  alt="California Mixte"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">California Mixte</h3>
+                <p>6 California Saumon, 6 California Thon Cuit, 6 California Poulet</p>
+                <p>18 pièces</p>
+                <p class="fw-normal text-pink">15.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="yakimax"
+      tabindex="-1"
+      aria-labelledby="yakimax"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/plateau8.png"
+                  class="imgzoom"
+                  alt="Yaki Max"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Yaki Max</h3>
+                <p>8 Brochettes au choix + Riz Nature offert</p>
+                <p>8 pièces</p>
+                <p class="fw-normal text-pink">19.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="avocadotopsaumoncheese"
+      tabindex="-1"
+      aria-labelledby="avocadotopsaumoncheese"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california5.png"
+                  class="imgzoom"
+                  alt="Avocadotop Saumon Cheese"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Avocadotop Saumon Cheese</h3>
+                <p>Avocadotop Saumon Fumé Cheese + Sauce Sucrée</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">7.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="greenrollcrevettetempura"
+      tabindex="-1"
+      aria-labelledby="greenrollcrevettetempura"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california6.png"
+                  class="imgzoom"
+                  alt="Greenroll Crevette Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Greenroll Crevette Tempura</h3>
+                <p>Greenroll Crevette Tempura + Sauce Spicy Mayo</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">6.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="makislimcrevettetempura"
+      tabindex="-1"
+      aria-labelledby="makislimcrevettetempura"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california4.png"
+                  class="imgzoom"
+                  alt="Makislim Crevette Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Makislim Crevette Tempura</h3>
+                <p>Crevette Tempura, Salade, Concombre, Avocat, Menthe.</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">7.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="greenrollthon"
+      tabindex="-1"
+      aria-labelledby="greenrollthon"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Greenroll Thon</h3>
+                <p>Greenroll Thon + Sauce Salée</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">6.20 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="californiasmoky"
+      tabindex="-1"
+      aria-labelledby="californiasmoky"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california3.png"
+                  class="imgzoom"
+                  alt="California Smoky"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">California Smoky</h3>
+                <p>Saumon fumé, Cream Cheese + Sauce Sucrée</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">5.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="californiaspicycrevette"
+      tabindex="-1"
+      aria-labelledby="californiaspicycrevette"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/california1.png"
+                  class="imgzoom"
+                  alt="California Spicy Crevette"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">California Spicy Crevette</h3>
+                <p>Crevette, Avocat, Concombre, Tobinko, Riz Vinaigré, Sésame Noire, Algue Nori + Sauce Spicy Mayo</p>
+                <p>6 Pièces</p>
+                <p class="fw-normal text-pink">7.20 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="chirashisaumon"
+      tabindex="-1"
+      aria-labelledby="chirashisaumon"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/sashimi1.png"
+                  class="imgzoom"
+                  alt="Chirashi Saumon"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Chirashi Saumon</h3>
+                <p>16 Tranches de Saumon, Riz Vinaigré + Sauce Salée</p>
+                <p class="fw-normal text-pink">15.90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="chirashimarinadethai"
+      tabindex="-1"
+      aria-labelledby="chirashimarinadethai"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/sashimi2.png"
+                  class="imgzoom"
+                  alt="chirashi marinade thai"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Chirashi Marinade Thai</h3>
+                <p>Saumon, Thon, Poivron, Oignon Rouge, Coriande, Riz vinaigré + Sauce Yuzu</p>
+                <p class="fw-normal text-pink">17.50 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div
+      class="modal fade"
+      id="crevettetempura"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <img
+                  src="assets/img/bento2.png"
+                  class="imgzoom"
+                  alt="Crevettes Tempura"
+                />
+              </div>
+              <div class="col-lg-6 col-12">
+                <h3 class="pb-2 fw-normal">Crevettes Tempura</h3>
+                <p>3 CREVETTES EN PANURE TEMPURA.</p>
+                <p>3 Pièces</p>
+                <p class="fw-normal text-pink">6.70 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
