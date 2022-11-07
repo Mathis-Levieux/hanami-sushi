@@ -21,7 +21,7 @@ Mettre en place *la carte des plats* d'un restaurant au format **desktop** et **
 
 ## Hébergement du projet
 
-Le site est disponible [à cette adresse](http://votrepage.github.io).
+Le site est disponible [à cette adresse](https://mathis-levieux.github.io/hanami-sushi/).
 
 
 ## Fabriqué avec
@@ -32,7 +32,7 @@ Le site est disponible [à cette adresse](http://votrepage.github.io).
 
 ## Auteurs
 
-* **Votre prénom** _alias_ [@outout14](https://github.com/outout14)
+* **Mathis** _alias_ [@Mathis-Levieux](https://github.com/Mathis-Levieux)
 
 
 
