@@ -113,6 +113,11 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+.num {
+  display: none;
+}
+
+
   header {
     height: 20vh;
   }
